@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica;
 	/* background-color: rgb(37, 37, 37); */
+    background-image: linear-gradient(to right, rgb(73, 4, 113), rgb(113, 17, 209));
 	/* margin:0; */
     padding: 10;
 }
@@ -11,35 +12,80 @@ body {
     }
 } */
 
+section {
+    background-color: blue;
+    width: 1200px;
+}
+
+@media(max-width: 1200px){
+    section {
+        background-color: red;
+        width: 1000px;
+    }
+}
+
+@media(max-width: 1024px){
+    section {
+        background-color: yellow;
+        width: 700px;
+    }
+}
+
+@media(max-width: 768px){
+    section {
+        background-color: green;
+        width: 400px;
+    }
+}            
+
+@media(max-width: 425px){
+    section {
+        background-color: grey;
+        width: 320px;
+    }
+}   
+
 .box_primario {
-    padding: 15px;
+    /*padding: 15px;*/
     align-self: center;
     /* text-align: center; */
     /* align-content: center; */
     vertical-align: top;
-    margin: 0 auto;
-    width: 80%;
-    /* background-color: rgb(45, 44, 44); */
-    border-top: 2px solid whitesmoke;
+    /* margin: 0 auto; */
+    margin: 20px auto;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    /* border-top: 2px solid whitesmoke; */
+}
+
+.box_faixa {
+    padding: 15px;
+    width: 100%;  
+    /*height: 200px;*/
+    /*background-color: whitesmoke; */
+    box-sizing: border-box;
 }
 
 .box_secundario {
     padding: 15px;
     /* background-color: rgb(45, 44, 44); */
-    background-color: white;
+    background-color: rgb(41, 40, 40);
     /* display: inline-block; */
-    width: 250px;
-    height: 250px; 
+    width: 100%;
+    /*height: 250px; */
     /* margin: 0 auto; */
-    float: left;
+    /*float: left;*/
     margin-right: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 1px solid silver;
+    border: 1px solid rgb(60, 60, 60);
+    box-sizing: border-box;
 }
 
 .box_secundario:hover {
-    background-color: whitesmoke; /* Mudar de cor ao passar o mouse. */
+    background-color: rgb(20, 20, 20); /* Mudar de cor ao passar o mouse. */
 }
 
 .box_imagem {
@@ -53,13 +99,6 @@ body {
     margin-bottom: 15px; */
 }
 
-.box_faixa {
-    padding: 5px;
-    width: 100%;  
-    /*height: 200px;*/
-    /*background-color: whitesmoke; */
-}
-
 a {
     text-decoration: none;
     color: dodgerblue;
@@ -71,39 +110,20 @@ a:visited {
     color: dodgerblue;
 }
 
-/*
 .titulo1 {
-    color:whitesmoke;
-    font-size: 18px;
-    font-weight: bold;
+    color:white;
+    font-size: 22px;
+    font-weight: regular;
 }
 
 .titulo2 {
-    color:orange;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.texto1 {
-    color: whitesmoke;
-    font-size: 14px;
-}
-*/
-
-.titulo1 {
-    color:black;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.titulo2 {
-    color:rgb(94, 93, 93);
+    color:rgb(130, 128, 128);
     font-size: 16px;
     /*font-weight: bold;*/
 }
 
 .titulo3 {
-    color:rgb(94, 93, 93);
+    color:silver;
     font-size: 16px;
     font-weight: bold;
 }
