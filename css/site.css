@@ -31,10 +31,28 @@ section {
     }
 }
 
+.box_primario {
+    /*padding: 15px;*/
+    align-self: center;
+    /* text-align: center; */
+    /* align-content: center; */
+    vertical-align: top;
+    /* margin: 0 auto; */
+    margin: 20px auto;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    /* border-top: 2px solid whitesmoke; */
+}
+
 @media(max-width: 768px){
     section {
         background-color: green;
         width: 400px;
+    }
+    .box_primario {
+        width: 90%;
     }
 }            
 
@@ -44,21 +62,6 @@ section {
         width: 320px;
     }
 }   
-
-.box_primario {
-    /*padding: 15px;*/
-    align-self: center;
-    /* text-align: center; */
-    /* align-content: center; */
-    vertical-align: top;
-    /* margin: 0 auto; */
-    margin: 20px auto;
-    width: 75%;
-    height: 100%;
-    background-color: rgb(20, 20, 20);
-    border-radius: 5px;
-    /* border-top: 2px solid whitesmoke; */
-}
 
 .box_faixa {
     padding: 15px;
