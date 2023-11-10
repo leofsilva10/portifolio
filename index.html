@@ -138,7 +138,10 @@
         </div>
         <div id="divProjetos" class="box_primario">
             <div class="box_faixa">
-                <p class="titulo1">Projetos</p>
+                <p class="titulo1">
+                    Projetos
+                    <br><input type="text" id="txtalerta" size="60" class="caixa_texto" readonly>
+                </p>
                 <div class="box_secundario">
                     <p class="texto1">
                         Power BI - Dashboard de Projetos | 
@@ -210,6 +213,7 @@
     //     console.log(`Resolução da janela de visualização: ${viewportWidth}x${viewportHeight}`);
     // }); 
     if (window.innerWidth < 600){
+        document.getElementById("txtalerta").value = "Dashboards são melhor visualizados em telas maiores.";
         document.getElementById("ifrProjetos").height = 250;
         document.getElementById("ifrAcoes").height = 250;
         document.getElementById("ifrFinanceiro").height = 250;

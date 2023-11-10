@@ -154,7 +154,9 @@ a:visited {
     font-size: 14px;
 }
 
-.texto_zap {
-    color: green;
-    font-size: 14px;
+.caixa_texto {
+    color: red;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-size: 10px;
 }
