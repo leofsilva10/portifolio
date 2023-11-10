@@ -1,73 +1,35 @@
 body {
     font-family: Helvetica;
-	/* background-color: rgb(37, 37, 37); */
     background-image: linear-gradient(to right, rgb(73, 4, 113), rgb(113, 17, 209));
-	/* margin:0; */
     padding: 10;
 }
 
-/* @media screen and (max-width: 500px) {
-    .box_secundario {
-        width: 70%;
-    }
-} */
-
-section {
-    background-color: blue;
-    width: 1200px;
-}
-
-@media(max-width: 1200px){
-    section {
-        background-color: red;
-        width: 1000px;
-    }
-}
-
-@media(max-width: 1024px){
-    section {
-        background-color: yellow;
-        width: 700px;
-    }
-}
-
-.box_primario {
-    /*padding: 15px;*/
+.box_principal {
     align-self: center;
-    /* text-align: center; */
-    /* align-content: center; */
     vertical-align: top;
-    /* margin: 0 auto; */
     margin: 20px auto;
     width: 70%;
     height: 100%;
     background-color: rgb(20, 20, 20);
     border-radius: 5px;
-    /* border-top: 2px solid whitesmoke; */
 }
 
 @media(max-width: 768px){
-    section {
-        background-color: green;
-        width: 400px;
-    }
-    .box_primario {
+    .box_principal {
         width: 90%;
     }
 }            
 
-@media(max-width: 425px){
-    section {
-        background-color: grey;
-        width: 320px;
-    }
-}   
+.box_avisos {
+    background-color: rgb(20, 20, 20);
+    color: red;
+    display: none;
+    font-size: 10px;
+}
 
-.box_faixa {
+.box_conteudo {
     padding: 15px;
     width: 100%;  
-    /*height: 200px;*/
-    /*background-color: whitesmoke; */
     overflow: hidden;
     height: auto;
     box-sizing: border-box;
@@ -75,13 +37,8 @@ section {
 
 .box_secundario {
     padding: 15px;
-    /* background-color: rgb(45, 44, 44); */
     background-color: rgb(41, 40, 40);
-    /* display: inline-block; */
     width: 100%;
-    /*height: 250px; */
-    /* margin: 0 auto; */
-    /*float: left;*/
     margin-right: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -104,23 +61,12 @@ section {
 }
 
 .box_secundario:hover {
-    background-color: rgb(20, 20, 20); /* Mudar de cor ao passar o mouse. */
+    background-color: rgb(20, 20, 20);
 }
 
 .box_secundario2:hover {
-    background-color: rgb(73, 4, 113); /* Mudar de cor ao passar o mouse. */
+    background-color: rgb(73, 4, 113);
     color: white;
-}
-
-.box_imagem {
-    padding: 15px;
-    /*background-color: whitesmoke;*/
-    width: 200px;
-    height: 200px;
-    /* margin: 0 auto; */
-    float: left; 
-    /* margin-right: 15px;
-    margin-bottom: 15px; */
 }
 
 a {
