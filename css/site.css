@@ -69,10 +69,6 @@ body {
     color: white;
 }
 
-/* #img_whatsapp1:hover {
-    src: 'imagens/whatsapp-02.png';
-} */
-
 a {
     text-decoration: none;
     color: dodgerblue;
@@ -104,6 +100,11 @@ a:visited {
 
 .texto1 {
     color: gray;
+    font-size: 14px;
+}
+
+.texto2 {
+    color: white;
     font-size: 14px;
 }
 
