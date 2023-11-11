@@ -114,3 +114,9 @@ a:visited {
     border: none;
     font-size: 9px;
 }
+
+.mensagem {
+    color: silver;
+    border: none;
+    font-size: 10px;
+}
